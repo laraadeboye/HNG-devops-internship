@@ -1,6 +1,89 @@
-* {
+/* Reset some basic styles */
+body, h1, p, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+}
+
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container styles */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Header styles */
+h1 {
+    font-size: 40px;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 18px;
+    color: #254336;
+    margin-bottom: 15px;
+
+}
+
+
+/* Button styles */
+button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+/* Deploy message styles */
+.deploy-message {
+    font-size: 20px;
+    font-style:italic;
+    font-weight: bold;
+    color: #00796b;
+    margin-bottom: 20px;
+    animation: fadeIn 3s ease-in-out, colorChange 5s infinite;
+}
+
+/* Keyframes for fadeIn and colorChange */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes colorChange {
+    0% { color: #00796b; }
+    25% { color: #ffeb3b; }
+    50% { color: #8bc34a; }
+    75% { color: #00bcd4; }
+    100% { color: #e91e63; }
 }
