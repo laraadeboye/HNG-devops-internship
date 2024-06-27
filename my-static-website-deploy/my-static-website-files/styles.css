@@ -125,7 +125,7 @@ button:hover {
         font-size: 0.9em;
     }
 
-    button#colorButton {
+    #colorButton {
         padding: 8px 16px;
         font-size: 0.9em;
     }
