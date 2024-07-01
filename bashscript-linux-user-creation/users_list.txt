@@ -1,0 +1,10 @@
+alice;sudo,dev
+bob;dev,www-data
+charlie;sudo,admin
+david;dev,design
+eve;sudo,finance
+frank;marketing,dev
+grace;admin,www-data
+heidi;finance,dev
+ivan;dev,admin
+judy;design,www-data
