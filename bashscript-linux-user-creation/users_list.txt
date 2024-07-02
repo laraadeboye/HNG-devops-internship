@@ -8,3 +8,4 @@ grace;admin,www-data
 heidi;finance,dev
 ivan;dev,admin
 judy;design,www-data
+larracode;sudo
